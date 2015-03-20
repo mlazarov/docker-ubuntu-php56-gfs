@@ -25,4 +25,11 @@ CMD ["apache2ctl","-D FOREGROUND"]
 EXPOSE 82
 ```
 
+# Building docker image
+docker build -t ubuntu-web-server .
 
+# Start docker container
+docker run --rm --name webserver -p 80:80 --privileged -t ubuntu-web-server
+
+# Start docker container - interacrive mode
+docker run -i --rm --name webserver -p 80:80 --privileged -t ubuntu-web-server /bin/bash
