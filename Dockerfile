@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt-get update && apt-get install -y python-software-properties && \
+RUN apt-get update && apt-get install -y software-properties-common python-software-properties && \
 add-apt-repository ppa:ondrej/php5-5.6 && \
 apt-get install -y glusterfs-client git vim wget apache2 \
 php5 php5-mysql php5-mcrypt php5-intl php5-curl php5-imagick php5-memcache \
