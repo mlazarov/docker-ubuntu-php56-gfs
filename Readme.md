@@ -20,8 +20,9 @@ Start new `Dockerfile` containing alrady
 ```
 FROM mlazarov/ubuntu-php56-gfs
 
-
 CMD ["apache2ctl","-D FOREGROUND"] 
 
 EXPOSE 82
 ```
+
+
