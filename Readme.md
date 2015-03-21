@@ -16,7 +16,7 @@
 * rsyslog
 
 # Dockerfile usage example
-Start new `Dockerfile` with dummpy apache welcome page only
+Start new `Dockerfile` with dummy apache welcome page only
 ```
 FROM mlazarov/ubuntu-php56-gfs
 
