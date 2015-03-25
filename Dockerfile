@@ -8,9 +8,9 @@ RUN echo "deb http://ppa.launchpad.net/ondrej/php5-5.6/ubuntu trusty main" >> /e
     supervisor rsyslog && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Enable php mcrypt module
-RUN php5enmod mcrypt
+RUN php5enmod mcrypt gd
 
 # Enable basic apache mods
-RUN a2enmod rewrite && a2enmod headers
+RUN a2enmod rewrite headers
 
 
