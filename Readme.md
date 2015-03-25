@@ -12,6 +12,7 @@
 * php5-curl
 * php5-imagick
 * php5-memcache
+* php5-gd
 * rsupervisor
 * rsyslog
 
