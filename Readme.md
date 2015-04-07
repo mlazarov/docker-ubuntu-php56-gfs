@@ -15,7 +15,8 @@
 * php5-imagick
 * php5-memcache
 * php5-gd
-* rsupervisor
+* php-dom
+* supervisor
 * rsyslog
 
 # Dockerfile usage example
