@@ -1,4 +1,6 @@
 # Ubuntu Docker image with following packages
+* wget
+* curl
 * apache2
 * php 5.6
 * glusterfs-client
