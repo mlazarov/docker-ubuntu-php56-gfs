@@ -15,7 +15,7 @@
 * php5-imagick
 * php5-memcache
 * php5-gd
-* php5-dom
+* php5-xls
 * supervisor
 * rsyslog
 
